@@ -8,6 +8,9 @@ class NumComplejo
 	def initialize(a,b)
 		@a, @b = a, b
 	end
-
-
+	
+	def productoEscalar(valorEscalar)
+		Resultado = "#{a * valorEscalar} + #{b * valorEscalar}i"
+		return Resultado
+	end
 end
