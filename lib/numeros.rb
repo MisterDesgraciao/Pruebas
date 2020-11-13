@@ -9,6 +9,7 @@ class NumComplejo
 		@a, @b = a, b
 	end
 	
+	#Multiplica el valor dado por los dos valores del nº complejo
 	def productoEscalar(valorEscalar)
 		Resultado = "#{a * valorEscalar} + #{b * valorEscalar}i"
 		return Resultado
